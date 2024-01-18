@@ -17,9 +17,6 @@ app.get('/', (req, res) => {
 const link = "https://x9zybgnxri.execute-api.eu-north-1.amazonaws.com";
 
 
-const port = 3003; 
-app.listen(port, () => {
-    console.log(`Server running on port ${port}`);
-});
+module.exports.handler = serverless(app);
 
 
