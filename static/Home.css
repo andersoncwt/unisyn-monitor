@@ -1,0 +1,43 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.status-container {
+    margin: 20px;
+    background: #fff;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.status-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.status-bar {
+    display: flex;
+}
+
+.bar {
+    width: 3px; /* Width of each bar */
+    height: 20px; /* Height of each bar */
+    background-color: #4CAF50; /* Default color for up bars */
+    margin-right: 2px;
+}
+
+.bar.down {
+    background-color: #F44336; /* Color for down bars */
+}
+
+.status-footer {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.8em;
+    color: #666;
+    margin-top: 10px;
+}
